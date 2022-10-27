@@ -1,0 +1,124 @@
+:root{
+    --border-radius-dsspandXN: 20px;
+    --color-line-bottom: rgb(233, 233, 231);
+    --heightandwidth-icon: 30px;
+}
+.cart{
+    background-color:var(--color-line-bottom);
+    padding: 20px 0px 100px 0px;
+}
+.cart h1{
+    margin-left: 70px;
+}
+.giohang{
+    
+    display: flex;
+    
+    margin: 0 20px 0 50px;
+}
+.DSsp{
+    width: 60%;
+    border-radius: var(--border-radius-dsspandXN);
+    margin: 0 20px;
+    background-color: white;
+    height: fit-content;
+}
+.XNdonhang{
+    width: 30%;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Xacnhan{
+    border-radius: var(--border-radius-dsspandXN);
+    
+    background-color: white;
+    height: fit-content;
+}
+.ttgiasp{
+    display: flex;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-color:var(--color-line-bottom);
+    border-left-style: solid;
+    height: 150px;
+    width: 100%;
+}
+.ttgiasp img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.ttgiasp .thongtin{
+    width: 60%;
+}
+.ttgiasp .giasl{
+    width: 30%;
+    margin: 0 50px;
+    text-align: center;
+    
+ 
+}
+.tanggiam{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.icon-sub{
+    margin: auto;
+    cursor: pointer;
+    height: var(--heightandwidth-icon);
+    width: var(--heightandwidth-icon);
+    
+}
+.icon-plus{
+    margin: auto;
+    cursor: pointer;
+    height: var(--heightandwidth-icon);
+    width: var(--heightandwidth-icon);
+}
+.icon-trash{
+    margin: auto;
+    cursor: pointer;
+    height: var(--heightandwidth-icon);
+    width: var(--heightandwidth-icon);
+}
+.soluong{
+    height: var(--heightandwidth-icon);
+    width: var(--heightandwidth-icon);
+}
+.thongtinchot{
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-line-bottom);
+}
+.titlegia{
+    width: 50%;
+    padding-left: 20px;
+}
+.contentgia{
+    text-align: right;
+    width: 50%;
+    padding-right: 20px;
+}
+.chotgia{
+    display: flex;
+}
+.buttonXN{
+    display:block;
+    width: 100%;
+    background-color: rgb(66, 171, 66);
+    height: 50px;
+    margin-top: 20px;
+    border-radius: var(--border-radius-dsspandXN);
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    color: white;
+    font-size: 20px;
+}
+.buttonXN:hover {
+    background-color: #1d7920;
+    color: white;
+  }
