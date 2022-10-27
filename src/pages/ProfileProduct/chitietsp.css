@@ -1,0 +1,132 @@
+.Trangchitiet{
+    display: flex;
+    flex-direction: column;
+    margin: 0 12%;
+    background-color: #f8f8f0;
+    padding: 0 20px 0 20px;
+    border-radius: 10px;
+}
+.thongtinchitietsp{
+    display: flex;
+}
+.anhminhhoa{
+    width: 50%;
+}
+.anhminhhoa img{
+    width: 100%;
+ 
+}
+.anhminhhoa .muitentrai{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin: 17% 0 0 0;
+    left: 13%;
+    cursor: pointer;
+    
+}
+.anhminhhoa .muitenphai{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin: 17% 0 0 0;
+    right: 51%;
+    cursor: pointer;
+}
+.thongtin h1{
+    font-size: 30px;
+    margin: 0;
+
+}
+.thongtin p{
+    font-size: 20px;
+}
+
+.thongtin{
+    width: 50%;
+    padding: 0px 0px 0 50px;
+   
+}
+.Khungsp{
+    width: 20%;
+    margin: 30px;
+}
+.Khungsp img{
+    width: 100%;
+    
+}
+.DSSPtt{
+    display: flex;
+}
+.Motasp{
+    width: 65%;
+}
+.share, .iconfb, .icontwitter, .iconig{
+    width: 30px;
+    height: 30px;
+    display: inline;
+    font-size: 40px;
+}
+.iconfb, .icontwitter, .iconig{
+    margin: 20px 10px 0px 10px;
+    cursor: pointer;
+}
+.icontym ,.like{
+    display: inline;
+    float: right;
+    
+}
+.icontym{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.sizegiay{
+    display: inline-block;
+    padding: 2%;
+    margin: 0px 10px 10px 0;
+    background: #fff;
+    position: relative;
+    border: 3px solid #000000;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.active, .sizegiay:hover, .mausacgiay:hover {
+    background: #000;
+    color: #fff;
+}
+
+.mausacgiay{
+    display: inline-block;
+    margin: 0px 10px 10px 0;
+    background: #fff;   
+    padding: 10px 0;
+    width: 20%;
+    border: 3px solid #000000;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    color: #333;
+}
+.giatien{
+    color: red;
+}
+.thongtin button{
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(66, 171, 66);
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+    margin: 0 25%;
+}
+.thongtin button:hover{
+    background-color: #1d7920;
+}
