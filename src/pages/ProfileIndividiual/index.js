@@ -26,13 +26,13 @@ function ProfileAIndividiual() {
                         <div className={cx("content__2-form")}>
                             <form>
                                 <label>Họ và tên</label>
-                                <input type="" className={cx("content__2-form-text")} placeholder='Nhập từ khóa tìm kiếm' />
+                                <input type="" className={cx("content__2-form-text")} placeholder='Nhập tên' />
                                 <label>Ngày sinh</label>
-                                <input type="" className={cx("content__2-form-text")} placeholder='Nhập từ khóa tìm kiếm' />
+                                <input type="" className={cx("content__2-form-text")} placeholder='dd/mm/yyyy' />
                                 <label>Số điện thoại</label>
-                                <input type="" className={cx("content__2-form-text")} placeholder='Nhập từ khóa tìm kiếm' />
+                                <input type="" className={cx("content__2-form-text")} placeholder='Nhập số điện thoại' />
                                 <label>Email</label>
-                                <input type="" className={cx("content__2-form-text")} placeholder='Nhập từ khóa tìm kiếm' />
+                                <input type="" className={cx("content__2-form-text")} placeholder='Nhập email' />
                                 <div className={cx("content__2-form-submit")}>
                                     <input type="submit" className={cx("content__2-form-submit-text")} value="Lưu thông tin"></input>
                                 </div>
