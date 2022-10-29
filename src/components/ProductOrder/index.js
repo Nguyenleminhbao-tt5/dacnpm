@@ -1,5 +1,4 @@
 import classNames from "classnames/bind";
-import Product from "../Product";
 import styles from './ProductOrder.module.scss';
 
 const cx=classNames.bind(styles);

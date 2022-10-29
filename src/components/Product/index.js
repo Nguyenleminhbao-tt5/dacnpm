@@ -9,7 +9,6 @@ một Product gồm new(true), sale(int), URL_img(string), name(string),
 price_new(float), price_old(float) */
 
 
-
 function Product(props)
 {
     return (

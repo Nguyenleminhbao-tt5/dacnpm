@@ -1,7 +1,13 @@
+import styles from './ListProduct.module.scss';
+import classNames from "classnames/bind";
+
+const cx=classNames.bind(styles);
+
 function ListProduct ()
 {
     return (
-        <h1>ListProduct</h1>
+        <div className={cx('wrapper')}>
+        </div>
     );
 }
 

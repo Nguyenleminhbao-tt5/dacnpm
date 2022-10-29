@@ -1,0 +1,17 @@
+.listaddress {
+    background-color: #FFFFFF;
+    height: 200px;
+    width: 50%;
+    border-radius: 15px;
+    & h1 {
+        padding: 5px 5px 15px 15px;
+        font-weight: 800;
+    }
+    & div {
+        padding: 5px 5px 5px 15px;
+    }
+    & .listaddress__exit {
+        color: red;
+        font-weight: 600;
+    }
+}

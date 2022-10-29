@@ -1,0 +1,16 @@
+.wrapper {
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    & .address div {
+        padding: 6px;
+    }
+}
+.name {
+    font-weight: 600;
+}
+.phonenumber, .name {
+    padding: 10px;
+    font-weight: 600;
+}

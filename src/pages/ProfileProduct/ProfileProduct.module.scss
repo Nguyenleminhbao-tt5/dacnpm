@@ -1,0 +1,81 @@
+.wrapper {
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+    background-color: #EAEAEA;
+}
+
+.address {
+    padding: 15px;
+}
+
+.address_current {
+    font-weight: 600;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content__1 {
+    width: 30%;
+
+    & .content__1-nav {
+        height: 100%;
+        width: 40%;
+        position: absolute;
+        left: 20px;
+    }
+}
+
+.content__2 {
+    width: 70%;
+}
+
+.list_order {
+    padding-bottom: 100px;
+
+    & h1 {
+        font-weight: 800;
+        padding: 15px 15px 15px 0px;
+    }
+
+    & .order1,
+    .order2 {
+        width: 90%;
+        border-radius: 15px;
+        background-color: #FFFFFF;
+        position: relative;
+
+        & h2 {
+            padding-left: 15px;
+        }
+    }
+
+    & .order2 {
+        top: 40px;
+    }
+
+    & .order1__calculate,
+    .order2__calculate {
+        padding: 15px;
+
+        & .calculate_price {
+            color: red;
+            font-weight: 500;
+        }
+    }
+
+    & .order1__state,
+    .order2__state {
+        color: #1AC67E;
+        font-weight: 400;
+        padding: 10px 10px 10px 15px;
+    }
+
+    & .order1__list,
+    .order2__list {
+        padding: 15px 15px 15px 0px;
+    }
+}
