@@ -4,7 +4,8 @@ import {MdOutlineArrowForwardIos} from 'react-icons/md'
 import {BsFacebook} from 'react-icons/bs'
 import {AiFillTwitterSquare} from'react-icons/ai'
 import {AiFillInstagram} from 'react-icons/ai'
-import {FaRegHeart} from 'react-icons//fa'
+import {FaRegHeart} from 'react-icons/fa'
+import {AiOutlineStar} from 'react-icons/ai'
 import { useState } from 'react';
 
 
@@ -13,8 +14,12 @@ function Sanphamtt(){
         <div className='Khungsp'>
             <img src='https://bucket.nhanh.vn/store3/92233/ps/20220707/SND0010__1__thumb.jpg' alt=''></img>
             <h3>Nike</h3>
-            ********
-            <h3>12.000.000đ</h3>
+            <AiOutlineStar className='stars'></AiOutlineStar>
+            <AiOutlineStar className='stars'></AiOutlineStar>
+            <AiOutlineStar className='stars'></AiOutlineStar>
+            <AiOutlineStar className='stars'></AiOutlineStar>
+            <AiOutlineStar className='stars'></AiOutlineStar>
+            <h3 className='pricesptt'>12.000.000đ</h3>
         </div>
     )
 }
@@ -70,22 +75,42 @@ function Chitietsp(){
             </div>
             <div className="Motasp">
                 <h1>Mô tả sản phẩm</h1>
-                <p>Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, 
-                Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, 
-                Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, 
+                <p>Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
+                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
+                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid 
                 </p>
-                <p>Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, 
-                Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, 
-                Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, 
+                <p>Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
+                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
+                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid 
                 </p>
-                <p>Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, 
-                Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, 
-                Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, Giày rất là đẹp, 
+                <p>Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
+                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
+                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid 
                 </p>
             </div>
             <div className="Danhgia">
-                <h1> 5 sao: **********</h1>
-                <h2>Hà Việt Đức </h2>
+                <div className='vote'>
+                    <h2>5 sao</h2>
+                    <AiOutlineStar className='stars'></AiOutlineStar>
+                    <AiOutlineStar className='stars'></AiOutlineStar>
+                    <AiOutlineStar className='stars'></AiOutlineStar>
+                    <AiOutlineStar className='stars'></AiOutlineStar>
+                    <AiOutlineStar className='stars'></AiOutlineStar>
+                    <h2>1 nhận xét</h2>
+                </div>
+                <div className='loc'>
+                    <h2>Lọc xem theo:</h2>
+                    <button>Mới nhất</button>
+                    <button>Có hình ảnh</button>
+                    <button>Đã mua hàng</button>
+                </div>
+                <div className='uservote'>
+                    <h3>Hà Việt Đức</h3>
+                    <p>Đã đánh giá 5 <AiOutlineStar className='stars'></AiOutlineStar> </p>
+                </div>
+                <div className='nhanxet'>
+                    <p>Giày đẹp!</p>
+                </div>
             </div>
         </div>
     )
