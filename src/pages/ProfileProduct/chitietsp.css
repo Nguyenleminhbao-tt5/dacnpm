@@ -130,3 +130,35 @@
 .thongtin button:hover{
     background-color: #1d7920;
 }
+.SPtuongtu h1{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.SPtuongtu .pricesptt{
+    color: red;
+}
+.Danhgia{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.vote h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.loc button{
+    height: 30px;
+    width: fit-content;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgb(66, 171, 66);
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.loc h2, .loc button{
+    display: inline-block;
+}
+.loc button:hover{
+    background-color: #1d7920;
+}
