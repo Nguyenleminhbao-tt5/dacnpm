@@ -23,7 +23,7 @@
 
     & .content__1-nav {
         height: 100%;
-        width: 40%;
+        width: 29%;
         position: absolute;
         left: 20px;
     }
@@ -31,44 +31,63 @@
 
 .content__2 {
     width: 70%;
-    margin-bottom: 100px;
-    & .address__row1,
-    .address__row2 {
+    height: 500px;
+    & .content__2-header {
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+    & .content__2-form form {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        background-color: white;
+        width: 70%;
+        border-radius: 10px;
 
-        & .address__row1-col1 {
-            width: 50%;
-        }
-
-        & .address__row1-col2 {
-            width: 50%;
-        }
-
-        & .address__row2-col1 {
-            width: 50%;
-        }
-
-        & .address__row2-col2 {
-            width: 50%;
-        }
-    }
-    & .address__row2 {
-        position: relative;
-        top: 50px;
-    }
-    & .content__2-header{
-        padding-bottom: 20px;
-        & button {
-            background-color: #1AC67E;
-            border:none;
+        & .content__2-form-text {
+            padding-left: 20px;
+            position: relative;
+            left: 20px;
+            background-color: #e4e4e4;
+            height: 35px;
+            width: 90%;
             border-radius: 10px;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
+        } 
+        & .content__2-form-text:focus {
+            border: 3px solid #555 !important;
+        }
+
+        & label {
+            padding: 10px;
+            font-weight: 600;
+        }
+
+        & .content__2-form-submit {
+            position: relative;
+            left: 73%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            & .content__2-form-submit-text {
+                background-color: #1AC67E;
+                height: 35px;
+                width: 20%;
+                border-color: transparent;
+                color: var(--primary2-color);
+                border-radius: 10px;
+                padding: 10px;
+            }
+            & .content__2-form-submit-text:hover {
+                background-color: #0a794b;
+                height: 35px;
+                width: 20%;
+                border-color: transparent;
+                color: var(--primary2-color);
+                border-radius: 10px;
+                padding: 10px;
+            }
+        }
+
+        & .content__2-form-text::placeholder {
+            color:  #A8A8A8;
         }
     }
 }

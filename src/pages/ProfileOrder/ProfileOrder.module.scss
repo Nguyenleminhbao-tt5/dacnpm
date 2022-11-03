@@ -51,6 +51,24 @@
         & h2 {
             padding-left: 15px;
         }
+        & .order1__cancel, .order2__cancel {
+            position: relative;
+            left: 20px;
+            background-color: rgb(247, 11, 11);
+            border-radius: 15px;
+            padding: 10px;
+            font-weight: 600;
+            color: rgb(4, 1, 1);
+        }
+        & .order1__cancel:hover, .order2__cancel:hover {
+            position: relative;
+            left: 20px;
+            background-color: rgb(97, 35, 35);
+            border-radius: 15px;
+            padding: 10px;
+            font-weight: 600;
+            color: rgb(4, 1, 1);
+        }
     }
 
     & .order2 {

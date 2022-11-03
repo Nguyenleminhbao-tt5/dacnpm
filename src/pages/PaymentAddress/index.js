@@ -1,48 +1,39 @@
 import styles from './PaymentAddress.module.scss';
 import classNames from "classnames/bind";
 import ProfileNav from "../../components/ProfileNav"
-import Address from '../../components/Address';
 
 const cx = classNames.bind(styles);
-/* 
-    props là đối tượng sẽ chưa các thuộc tính của
-    một Address gồm: name, address1, address2, address3, address4, phonenumber
-*/
 function PaymentAddress() {
     return (
         <div className={cx('wrapper')}>
-            <div className={cx('wrapper')}>
-                <div className={cx('address')}>
-                    <span>Trang chủ {'>'} Hồ sơ {'>'} </span>
-                    <span className={cx('address_current')}>Địa chỉ giao hàng</span>
-                </div>
-                <div className={cx('content')}>
-                    <div className={cx('content__1')}>
-                        <div className={cx('content__1-nav')}>
-                            <ProfileNav />
-                        </div>
+            <div className={cx('address')}>
+                <span>Trang chủ {'>'} Hồ sơ {'>'} </span>
+                <span className={cx('address_current')}>Địa chỉ giao hàng</span>
+            </div>
+            <div className={cx('content')}>
+                <div className={cx('content__1')}>
+                    <div className={cx('content__1-nav')}>
+                        <ProfileNav />
                     </div>
-                    <div className={cx('content__2')}>
-                        <div className={cx('content__2-header')}>
-                            <h1>Địa chỉ giao hàng</h1>
-                            <button>Thêm địa chỉ</button>
-                        </div>
-                        <div className={cx('address__row1')}>
-                            <div className={cx('address__row1-col1')}>
-                                <Address name='NGUYỄN VĂN A' address1='268 Lý Thường Kiệt' address2='Phường 14' address3='Quận 10' address4='Thành phố Hồ Chí Minh' phonenumber='123456789' />
+                </div>
+                <div className={cx('content__2')}>
+                    <div className={cx('content__2-header')}>
+                        ĐỊA CHỈ GIAO HÀNG
+                    </div>
+                    <div className={cx("content__2-form")}>
+                        <form>
+                            <label>Tỉnh, thành</label>
+                            <input type="" className={cx("content__2-form-text")} placeholder='Nhập địa chỉ' />
+                            <label>Quận, huyện</label>
+                            <input type="" className={cx("content__2-form-text")} placeholder='Nhập địa chỉ' />
+                            <label>Xã, thị trấn</label>
+                            <input type="" className={cx("content__2-form-text")} placeholder='Nhập địa chỉ' />
+                            <label>Số nhà, tên đường</label>
+                            <input type="" className={cx("content__2-form-text")} placeholder='Nhập địa chỉ' />
+                            <div className={cx("content__2-form-submit")}>
+                                <input type="submit" className={cx("content__2-form-submit-text")} value="Lưu thông tin"></input>
                             </div>
-                            <div className={cx('address__row1-col2')}>
-                                <Address name='NGUYỄN VĂN A' address1='268 Lý Thường Kiệt' address2='Phường 14' address3='Quận 10' address4='Thành phố Hồ Chí Minh' phonenumber='123456789' />
-                            </div>
-                        </div>
-                        <div className={cx('address__row2')}>
-                            <div className={cx('address__row2-col1')}>
-                                <Address name='NGUYỄN VĂN A' address1='268 Lý Thường Kiệt' address2='Phường 14' address3='Quận 10' address4='Thành phố Hồ Chí Minh' phonenumber='123456789' />
-                            </div>
-                            <div className={cx('address__row2-col2')}>
-                                <Address name='NGUYỄN VĂN A' address1='268 Lý Thường Kiệt' address2='Phường 14' address3='Quận 10' address4='Thành phố Hồ Chí Minh' phonenumber='123456789' />
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>

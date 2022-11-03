@@ -5,8 +5,6 @@ import DefaultLayout from './components/Layout/DefaultLayout';
 import DefaultLayout_AD from './components/Layout/DefaultLayout_AD';
 import DefaultLayout_KH from './components/Layout/DefaultLayout_KH';
 
-import PageOrder from './pages/PageOrder';
-
 function App() {
   return (
         <Router>

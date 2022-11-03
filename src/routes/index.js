@@ -10,13 +10,12 @@ import ListProduct from '../pages/ListProduct';
 import Login from '../pages/Login';
 import ModifiedProduct from '../pages/ModifiedProduct';
 import PageOrder from '../pages/PageOrder';
+import Pay from '../pages/Pay';
 import PaymentAddress from '../pages/PaymentAddress';
 import ProfileIndividiual from '../pages/ProfileIndividiual';
-import ProfileProduct from '../pages/ProfileProduct';
+import ProfileOrder from '../pages/ProfileOrder';
 import Register from '../pages/Register';
-
-
-
+import PayATM from '../pages/PayATM';
 const publicRoutes = [
     {
         path: '/Cart',
@@ -84,13 +83,23 @@ const publicRoutes = [
         layout: 0
     },
     {
-        path: '/ProfileProduct',
-        component: ProfileProduct,
+        path: '/ProfileOrder',
+        component: ProfileOrder,
+        layout: 0
+    },
+    {
+        path: '/Pay',
+        component: Pay,
         layout: 0
     },
     {
         path: '/Register',
         component: Register,
+        layout: 0
+    },
+    {
+        path: '/PayATM',
+        component: PayATM,
         layout: 0
     }
 ];
