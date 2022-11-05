@@ -16,6 +16,7 @@ import ProfileIndividiual from '../pages/ProfileIndividiual';
 import ProfileOrder from '../pages/ProfileOrder';
 import Register from '../pages/Register';
 import PayATM from '../pages/PayATM';
+
 const publicRoutes = [
     {
         path: '/Cart',
