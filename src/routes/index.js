@@ -1,5 +1,4 @@
 /* Lưu đường dẫn chuyển trang */
-import Cart from '../pages/Cart';
 import CategoryProduct from '../pages/CategoryProduct';
 import ForgetPassword from '../pages/ForgetPassword';
 import Homepage from '../pages/Homepage';
@@ -16,10 +15,12 @@ import ProfileIndividiual from '../pages/ProfileIndividiual';
 import ProfileOrder from '../pages/ProfileOrder';
 import Register from '../pages/Register';
 import PayATM from '../pages/PayATM';
+import Chitietsp from '../pages/ProfileProduct/chitietsp';
+import Giohang from '../pages/Cart/cart';
 const publicRoutes = [
     {
         path: '/Cart',
-        component: Cart,
+        component: Giohang,
         layout: 0
     },
     {
@@ -100,6 +101,11 @@ const publicRoutes = [
     {
         path: '/PayATM',
         component: PayATM,
+        layout: 0
+    },
+    {
+        path: '/ProfileProduct',
+        component: Chitietsp,
         layout: 0
     }
 ];
