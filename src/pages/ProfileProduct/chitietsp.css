@@ -1,7 +1,10 @@
 .Trangchitiet{
+   
     display: flex;
     flex-direction: column;
     margin: 0 12%;
+    margin-top: 120px;
+    margin-bottom: 20px;
     background-color: #f8f8f0;
     padding: 0 20px 0 20px;
     border-radius: 10px;

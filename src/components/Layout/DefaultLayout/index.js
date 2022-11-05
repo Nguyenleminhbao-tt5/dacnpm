@@ -1,5 +1,6 @@
 import classNames from "classnames";
 import styles from './DefaultLayout.module.scss';
+import '../../base.module.scss';
 
 import Header from "../../Header";
 import Footer from "../../Footer"

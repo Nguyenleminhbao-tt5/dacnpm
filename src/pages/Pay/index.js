@@ -11,13 +11,13 @@ function Pay() {
             <div className={cx('content')}>
                 <div className={cx('content__1')}>
                     <div className={cx('img1')}>
-                        <img src={require("../../assets/cash_logo.JPG")}></img>
+                        <img className={cx('img-1')} src={require("../../assets/cash_logo.JPG")}></img>
                     </div>
                     <div className={cx('pay1')}>THANH TOÁN KHI NHẬN HÀNG</div>
                 </div>
                 <div className={cx('content__2')}>
                     <div className={cx('img2')}>
-                        <img src={require("../../assets/atm_logo.PNG")}></img>
+                        <img className={cx('img-2')} src={require("../../assets/atm_logo.PNG")}></img>
                     </div>
                     <div className={cx('pay2')}>THANH TOÁN BẰNG ATM CARD/INTERNET BANKING</div>
                 </div>
