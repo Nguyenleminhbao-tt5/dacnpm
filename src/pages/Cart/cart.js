@@ -1,6 +1,8 @@
 import {RiSubtractFill} from 'react-icons/ri'
 import {GoPlus} from 'react-icons/go'
 import {BsFillTrashFill} from 'react-icons/bs'
+import {Link} from 'react-router-dom';
+
 import { useState } from 'react';
 import './cart.css';
 
@@ -80,7 +82,7 @@ function Giohang(){
                         </div>
                         
                     </div>
-                    <button className="buttonXN">Xác nhận đơn hàng</button>
+                    <Link to='./Pay' className="buttonXN">Xác nhận đơn hàng</Link>
                 </div>
                 
             </div>

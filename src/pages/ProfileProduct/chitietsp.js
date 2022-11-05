@@ -6,7 +6,8 @@ import {AiFillTwitterSquare} from'react-icons/ai'
 import {AiFillInstagram} from 'react-icons/ai'
 import {FaRegHeart} from 'react-icons/fa'
 import {AiOutlineStar} from 'react-icons/ai'
-import { useState } from 'react';
+import {Link} from 'react-router-dom'
+
 
 
 function Sanphamtt(){
@@ -59,7 +60,9 @@ function Chitietsp(){
                     <span className='mausacgiay'>Xanh</span>
                     <h1 className='giatien'>150000000</h1>
                     <p>Ưu đãi khuyến mãi</p>
-                    <button> <b>Thêm vào giỏ hàng</b></button>
+                    <button>
+                        <Link to='../../Cart' className='cart'> <b>Thêm vào giỏ hàng</b></Link>
+                    </button>
                 </div>
             </div>
             <div className="SPtuongtu">

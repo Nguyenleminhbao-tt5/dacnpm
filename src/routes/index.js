@@ -32,7 +32,7 @@ const publicRoutes = [
     {
         path: '/ForgetPassword',
         component: ForgetPassword,
-        layout: 0
+        layout: 2
     },
     {
         path: '/',
@@ -90,7 +90,7 @@ const publicRoutes = [
         layout: 0
     },
     {
-        path: '/Pay',
+        path: '/Cart/Pay',
         component: Pay,
         layout: 0
     },
@@ -100,12 +100,12 @@ const publicRoutes = [
         layout: 2 // layout này kh có header và footer
     },
     {
-        path: '/PayATM',
+        path: '/Cart/Pay/PayATM',
         component: PayATM,
         layout: 0
     },
     {
-        path: '/ProfileProduct',
+        path: '/Homepage/ProfileProduct',
         component: Chitietsp,
         layout: 0
     }

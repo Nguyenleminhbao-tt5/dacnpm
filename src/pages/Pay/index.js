@@ -13,16 +13,16 @@ function Pay() {
                     <div className={cx('img1')}>
                         <img className={cx('img-1')} src={require("../../assets/cash_logo.JPG")}></img>
                     </div>
-                    <div className={cx('pay1')}>THANH TOÁN KHI NHẬN HÀNG</div>
+                    <button className={cx('pay1')}>THANH TOÁN KHI NHẬN HÀNG</button>
                 </div>
                 <div className={cx('content__2')}>
                     <div className={cx('img2')}>
                         <img className={cx('img-2')} src={require("../../assets/atm_logo.PNG")}></img>
                     </div>
-                    <div className={cx('pay2')}>THANH TOÁN BẰNG ATM CARD/INTERNET BANKING</div>
+                    <Link to='/Cart/Pay/PayATM' className={cx('pay2')}>THANH TOÁN BẰNG ATM CARD/INTERNET BANKING</Link>
                 </div>
                 <div className={cx('content__3')}>
-                    <Link to="/PayATM"><button className={cx('button')}>Xác nhận</button></Link>
+                    <Link to="/ProfileOrder"><button className={cx('button')}>Xác nhận</button></Link>
                 </div>
             </div>
         </div>

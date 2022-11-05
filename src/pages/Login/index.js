@@ -72,7 +72,8 @@ const Login = ({ handleSubmitLogin, messageLogin ,props}) => {
                 <i className="fa fa-lock" aria-hidden="true"></i>
               </span>
             </div>
-            <button> Quên mật khẩu </button>
+            
+            <Link to='../ForgetPassword' class="ForgetPass">Quên mật khẩu</Link>
             <div className="container-Login100-form-btn">
               <Link to='../' className="Login100-form-btn" >Đăng Nhập</Link>
             </div>

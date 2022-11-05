@@ -38,7 +38,7 @@ function Header()
             <div className={cx('navbar2')}>
                 <div className={cx('navbar2__category')}>
                     <i className={cx('navbar2__category-icon_first','fa-solid fa-bars')}></i>
-                    <Link className={cx('link')} to="/CategoryProduct"><div className={cx('navbar2__category-text')}>DANH MỤC SẢN PHẨM</div></Link>
+                    <Link className={cx('link')} to="./CategoryProduct"><div className={cx('navbar2__category-text')}>DANH MỤC SẢN PHẨM</div></Link>
                     <i className={cx('navbar2__category-icon_second','fa-solid fa-angle-down')}></i>
                 </div>
                 <div className={cx('navbar2__wrap')}>

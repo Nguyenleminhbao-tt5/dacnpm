@@ -114,10 +114,11 @@
     margin-top: 20px;
     border-radius: var(--border-radius-dsspandXN);
     border: none;
-    cursor: pointer;
+    text-decoration: none;
     transition-duration: 0.4s;
     color: white;
     font-size: 20px;
+    text-align: center;
 }
 .buttonXN:hover {
     background-color: #1d7920;

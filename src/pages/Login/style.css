@@ -508,3 +508,10 @@ iframe {
 .m-l-5 {
   margin-left: 5px;
 }
+
+/* tự bổ sung*/
+.ForgetPass
+{
+  text-decoration: none;
+  color: black;
+}
