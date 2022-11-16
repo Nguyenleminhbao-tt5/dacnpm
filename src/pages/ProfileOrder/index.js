@@ -2,7 +2,8 @@ import styles from './ProfileOrder.module.scss';
 import classNames from "classnames/bind";
 import ProfileNav from "../../components/ProfileNav"
 import ProductOrder from '../../components/ProductOrder';
-const cx=classNames.bind(styles);
+
+const cx = classNames.bind(styles);
 
 
 /* 
@@ -11,13 +12,12 @@ một ProductOrder gồm URL_img(string), name(string), price_new(float), price_
 number(int), size(int)
 */
 
-function ProfileOrder ()
-{
+function ProfileOrder() {
     return (
         <div className={cx('wrapper')}>
             <div className={cx('address')}>
-               <span>Trang chủ {'>'} Hồ sơ {'>'} </span>
-               <span className={cx('address_current')}>Danh sách đơn hàng</span>
+                <span>Trang chủ {'>'} Hồ sơ {'>'} </span>
+                <span className={cx('address_current')}>Danh sách đơn hàng</span>
             </div>
             <div className={cx('content')}>
                 <div className={cx('content__1')}>
@@ -32,7 +32,9 @@ function ProfileOrder ()
                         </h1>
                         <div className={cx('order1')}>
                             <h2 className={cx('order1__header')}>{'#'}Order001</h2>
-                            <button className={cx('order1__cancel')}>Hủy</button>
+                            <div className={cx('order_cancel')}>
+                                <button className={cx('order1__cancel')}>Hủy</button>
+                            </div>
                             <div className={cx('order1__state')}>Hoàn thành</div>
                             <div className={cx('order1__list')}>
                                 <div className={cx('order1__list-1')}>
@@ -61,7 +63,9 @@ function ProfileOrder ()
                         </div>
                         <div className={cx('order2')}>
                             <h2 className={cx('order2__header')}>{'#'}Order002</h2>
-                            <button className={cx('order2__cancel')}>Hủy</button>
+                            <div className={cx('order_cancel')}>
+                                <button className={cx('order2__cancel')}>Hủy</button>
+                            </div>
                             <div className={cx('order2__state')}>Hoàn thành</div>
                             <div className={cx('order2__list')}>
                                 <div className={cx('order2__list-t1')}>

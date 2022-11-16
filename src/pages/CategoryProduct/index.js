@@ -1,180 +1,100 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.css';
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import './CategoryProduct.css'
+import styles from './CategoryProduct.scss'
+import classNames from "classnames/bind";
+import Product from "../../components/Product"
+const cx = classNames.bind(styles);
 function CategoryProduct() {
   return (
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-4 col-xl-3 l-navbar active-nav" id="sidebarMenu" >
-          <nav class=" px-sm-2 px-0 bg-white">
-            <div class="position-sticky textFont">
-              <div class="list-group list-group-flush mx-4 mt-4">
-                <h3>Danh mục sản phẩm</h3>
-                <a
-                  href="#"
-                  class="list-group-item list-group-item-action py-2 ripple" data-toggle="list" role="tab"
-                  aria-current="true">
-                  <span>Sneaker</span>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action py-2 ripple active" data-toggle="list" role="tab">
-                  <span>MLB</span>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action py-2 ripple" data-toggle="list" role="tab">
-                  <span>Hunter</span>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action py-2 ripple" data-toggle="list" role="tab">
-                  <span>Bitis</span>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action py-2 ripple" data-toggle="list" role="tab">
-                  <span>Nike</span>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action py-2 ripple" data-toggle="list" role="tab">
-                  <span>Adidas</span></a>
-                <div class="border-bottom">
-                  <br></br>
-                  {/* <h3>Giá</h3> */}
-                  <h6>Chọn khoảng giá</h6>
-                  <div class='row'>
-                    <div class="col-6">
-                      <label for="exampleInput1">Từ</label>
-                      <input type="number" class="form-control" id="exampleInput1"></input>
-                    </div>
-                    <div class="col-6">
-                      <label for="exampleInput2">Đến</label>
-                      <input type="number" class="form-control" id="exampleInput2"></input>
-                    </div>
-                  </div>
-                  <button type="button" class="btn btn-success my-2">Áp dụng</button>
-                </div>
-                <h3>Màu sắc</h3>
-                <div class="btn-group row row-sm border-bottom" role="group" aria-label="Basic radio toggle button group">
-                  <div class="col-auto col-sm-6">
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" />
-                    <label class="btn btn-outline-secondary" for="btnradio1" style={{ width: '70px' }}>Đen</label>
-                  </div>
-                  <div class="col-auto col-sm-6">
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
-                    <label class="btn btn-outline-secondary" for="btnradio2" style={{ width: '70px' }}>Trắng</label>
-                  </div>
-                  <div class="col-auto col-sm-6">
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" />
-                    <label class="btn btn-outline-secondary" for="btnradio3" style={{ width: '70px' }}>Vàng </label>
-                  </div>
-                  <div class="col-auto col-sm-6">
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" />
-                    <label class="btn btn-outline-secondary" for="btnradio4" style={{ width: '70px' }}>Xanh</label>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-
+    <div className={cx('wrapper')}>
+      <div className={cx('body')}>
+        <div className={cx('col1')}>
+          <div className={cx('list-item')}>
+            <ul>
+              <li><a>Nike</a></li>
+              <li><a>Converse</a></li>
+              <li><a>Puma</a></li>
+              <li><a>Adidas</a></li>
+            </ul>
+          </div>
         </div>
-
-        <div class=" col-sm-8 col-md-9 col-xl-9">
-          <Row xs={1} md={4} className="g-4">
-            <Col>
-              <Card>
-                <Card.Img variant="top" src="https://maje.com.vn/media/catalog/product/cache/540ec56027640dda4501ceb3fc03bb79/m/a/maje_mfach00437-o001_h_6.jpg" />
-                <Card.Body>
-                  <Card.Title>Giày da thể thao hai màu</Card.Title>
-                  <Card.Text>
-                    6,825,000 đ                    
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card>
-                <Card.Img variant="top" src="https://maje.com.vn/media/catalog/product/cache/540ec56027640dda4501ceb3fc03bb79/m/a/maje_mfach00408-0505_h_1_1.jpg" />
-                <Card.Body>
-                  <Card.Title>Giày thể thao với đế dày</Card.Title>
-                  <Card.Text>
-                    8,225,000 đ
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card>
-                <Card.Img variant="top" src="https://maje.com.vn/media/catalog/product/cache/540ec56027640dda4501ceb3fc03bb79/M/a/Maje_MFACH00432-0500_H_2_4.jpg" />
-                <Card.Body>
-                  <Card.Title>Giày thể thao da lộn glitter</Card.Title>
-                  <Card.Text>
-                    6,825,000 đ
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card>
-                <Card.Img variant="top" src="https://maje.com.vn/media/catalog/product/cache/540ec56027640dda4501ceb3fc03bb79/M/a/Maje_MFACH00522-G014_H_1_1.jpg" />
-                <Card.Body>
-                  <Card.Title>Giày cao gót da</Card.Title>
-                  <Card.Text>
-                    11,725,000 đ
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card>
-                <Card.Img variant="top" src="https://maje.com.vn/media/catalog/product/cache/540ec56027640dda4501ceb3fc03bb79/m/a/maje_mfach00437-o001_h_6.jpg" />
-                <Card.Body>
-                  <Card.Title>Giày da thể thao hai màu</Card.Title>
-                  <Card.Text>
-                    6,825,000 đ                    
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card>
-                <Card.Img variant="top" src="https://maje.com.vn/media/catalog/product/cache/540ec56027640dda4501ceb3fc03bb79/m/a/maje_mfach00408-0505_h_1_1.jpg" />
-                <Card.Body>
-                  <Card.Title>Giày thể thao với đế dày</Card.Title>
-                  <Card.Text>
-                    8,225,000 đ
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card>
-                <Card.Img variant="top" src="https://maje.com.vn/media/catalog/product/cache/540ec56027640dda4501ceb3fc03bb79/M/a/Maje_MFACH00432-0500_H_2_4.jpg" />
-                <Card.Body>
-                  <Card.Title>Giày thể thao da lộn glitter</Card.Title>
-                  <Card.Text>
-                    6,825,000 đ
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card>
-                <Card.Img variant="top" src="https://maje.com.vn/media/catalog/product/cache/540ec56027640dda4501ceb3fc03bb79/M/a/Maje_MFACH00522-G014_H_1_1.jpg" />
-                <Card.Body>
-                  <Card.Title>Giày cao gót da</Card.Title>
-                  <Card.Text>
-                    11,725,000 đ
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-        
-
+        <div className={cx('col2')}>
+          <div className={cx('row')}>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+          </div>
+          <div className={cx('row')}>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+          </div>
+          <div className={cx('row')}>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+          </div>
+          <div className={cx('row')}>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+            <div className={cx('item')}>
+              {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg'
+                name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ' />}
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  )
-
+  );
 }
 
 
 
-export default CategoryProduct
+export default CategoryProduct;

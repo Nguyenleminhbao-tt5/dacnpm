@@ -1,0 +1,33 @@
+.wrapper {
+  margin-top: 100px;
+}
+.body {
+  display: flex;
+  flex-direction: row;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.item {
+  padding: 20px;
+}
+.col1 {
+  width: 20%;
+}
+.col2 {
+  width: 80%;
+}
+.list-item {
+  background-color: rgb(206, 204, 204);
+  margin: 10px;
+  border-radius: 5px;
+  & li {
+    display: flex;
+    justify-content: center;
+    & a {
+      font-size: large;
+      font-weight: 500;
+    }
+  }
+}
