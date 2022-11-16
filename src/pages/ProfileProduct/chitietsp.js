@@ -61,7 +61,7 @@ function Chitietsp(){
                     <h1 className='giatien'>150000000</h1>
                     <p>Ưu đãi khuyến mãi</p>
                     <button>
-                        <Link to='../../Cart' className='cart'> <b>Thêm vào giỏ hàng</b></Link>
+                        <Link to='../../Cart' className='cart1'> <b>Thêm vào giỏ hàng</b></Link>
                     </button>
                 </div>
             </div>
