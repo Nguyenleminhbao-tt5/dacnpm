@@ -78,18 +78,13 @@ function Chitietsp(){
             </div>
             <div className="Motasp">
                 <h1>Mô tả sản phẩm</h1>
-                <p>Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
-                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
-                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid 
+                <p>Thuộc dòng sản phẩm sneaker mới nhất 2022 của Shondo, Chunky S1 được thiết kế theo phong cách hầm hố, đường nét phá cách cùng logo SH nổi bật, dễ dàng phối đồ và thể hiện đa phong cách.
                 </p>
-                <p>Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
-                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
-                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid 
+                <p>- Dòng sản phẩm: Chunky S1
                 </p>
-                <p>Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
-                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
-                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid 
+                <p>- Thương hiệu: SHONDO
                 </p>
+                <p>- Đế trên chất liệu Phylon cao cấp, kết hợp đế dưới cao su có rãnh, hạn chế trơn trượt, chống mài mòn </p>
             </div>
             <div className="Danhgia">
                 <div className='vote'>
