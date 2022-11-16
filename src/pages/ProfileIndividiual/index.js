@@ -17,7 +17,6 @@ function ProfileAIndividiual() {
                     <div className={cx('content__1-nav')}>
                         <ProfileNav />
                     </div>
-                    
                 </div>
                 <div className={cx('avatar')}>
                     <div className={cx('imgavatar')}>

@@ -1,4 +1,4 @@
-import styles from './CategoryProduct.scss'
+import styles from './CategoryProduct.module.scss'
 import classNames from "classnames/bind";
 import Product from "../../components/Product"
 const cx = classNames.bind(styles);
