@@ -15,7 +15,7 @@ function Product(props)
     return (
         <div className={cx('wrapper')}>
             <div className={cx('product__top')} >
-                <Link to='./Homepage/ProfileProduct' className={cx('product__top-link')}>
+                <Link to='/ProfileProduct' className={cx('product__top-link')}>
                     <img className={cx('product__top-img')} src={props.URL_img} align='middle'/>
                 </Link>
                 

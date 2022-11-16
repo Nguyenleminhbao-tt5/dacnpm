@@ -105,7 +105,7 @@ const publicRoutes = [
         layout: 0
     },
     {
-        path: '/Homepage/ProfileProduct',
+        path: 'ProfileProduct',
         component: Chitietsp,
         layout: 0
     }
