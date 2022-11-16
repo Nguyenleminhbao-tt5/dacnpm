@@ -32,7 +32,7 @@ function Product(props)
                     </div>
                 </div>
                 {props.size && <div className={cx('product__top-size')}>
-                    <a href="" className={cx('size-item','active')}>
+                    <a href="" className={cx('size-item')}>
                         <span style={{top: '10px', position: 'relative'}}>36</span>
                     </a>
                     <a href="" className={cx('size-item')}>

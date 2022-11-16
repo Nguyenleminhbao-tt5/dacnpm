@@ -74,13 +74,16 @@
     font-weight: 500;
     font-size: 18px;
 }
-.navbar1__login
+.navbar1__account
 {
-    text-decoration: none;
-    color: var(--primary2-color);
-    font-weight: 500;
-    font-size: 18px;
     margin-left: 40px;
+}
+.navbar1__account-img
+{
+    border-radius: 20px;
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
 }
 .navbar1__social
 {

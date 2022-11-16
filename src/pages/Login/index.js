@@ -1,10 +1,14 @@
-import { useState } from "react";
+import { useState,useRef } from "react";
 import {Link} from 'react-router-dom';
 
 import "./style.css";
 import "./fonts/font-awesome-4.7.0/css/font-awesome.min.css";
 
+let countLogin=0;
+
 const Login = ({ handleSubmitLogin, messageLogin ,props}) => {
+ 
+  countLogin++;
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
@@ -75,10 +79,11 @@ const Login = ({ handleSubmitLogin, messageLogin ,props}) => {
             
             <Link to='../ForgetPassword' class="ForgetPass">Quên mật khẩu</Link>
             <div className="container-Login100-form-btn">
-              <Link to='../' className="Login100-form-btn" >Đăng Nhập</Link>
+              <Link to='../' className="Login100-form-btn">Đăng Nhập
+              </Link>
             </div>
             <div className="container-Login100-form-btn">
-              <Link to='../Register' className="Login100-form-btn" >Đăng Kí</Link>
+              <Link to='../Register' className="Login100-form-btn">Đăng Kí</Link>
             </div>
           </form>
         </div>
@@ -88,3 +93,4 @@ const Login = ({ handleSubmitLogin, messageLogin ,props}) => {
 };
 
 export default Login;
+export {countLogin};
