@@ -14,7 +14,6 @@ import PaymentAddress from '../pages/PaymentAddress';
 import ProfileIndividiual from '../pages/ProfileIndividiual';
 import ProfileOrder from '../pages/ProfileOrder';
 import Register from '../pages/Register';
-import PayATM from '../pages/PayATM';
 import Chitietsp from '../pages/ProfileProduct/chitietsp';
 import Giohang from '../pages/Cart/cart';
 
@@ -100,12 +99,7 @@ const publicRoutes = [
         layout: 2 // layout này kh có header và footer
     },
     {
-        path: '/Cart/Pay/PayATM',
-        component: PayATM,
-        layout: 0
-    },
-    {
-        path: 'ProfileProduct',
+        path: '/ProfileProduct',
         component: Chitietsp,
         layout: 0
     }
