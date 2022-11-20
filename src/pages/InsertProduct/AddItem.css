@@ -17,3 +17,7 @@ row{
 span{
 	font-weight: bold;
 }
+.limiter {
+	width: 100%;
+	margin: 0 auto;
+  }
