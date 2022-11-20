@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'; 
 import styles from './PayATM.module.scss';
 import classNames from "classnames/bind";
 const cx = classNames.bind(styles);
@@ -12,6 +13,9 @@ function PayATM() {
                 <span>Ngân hàng: MB BANK - HCM</span>
                 <span>Ghi chú: Thanh toán {"<Mã đơn hàng>"}</span>
                 <span>Hot line: 1900 2722</span>
+            </div>
+            <div className={cx('sumbit')}>
+                    <Link to="../../ProfileOrder"><button className={cx('button')}>Xác nhận</button></Link>
             </div>
         </div>
     );

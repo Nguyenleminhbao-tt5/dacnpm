@@ -1,6 +1,9 @@
+import {Link} from 'react-router-dom';
+import { useState } from "react";
+
 import "./style.css";
 import "./fonts/font-awesome-4.7.0/css/font-awesome.min.css";
-import { useState } from "react";
+
 const Register = ({ handleSubmitRegister, messageRegister,props }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -109,7 +112,7 @@ const Register = ({ handleSubmitRegister, messageRegister,props }) => {
               </span>
             </div>
             <div className="container-Register100-form-btn">
-              <button className="Register100-form-btn">Đăng Kí</button>
+              <Link to='../Login' className="Register100-form-btn">Đăng Kí</Link>
             </div>
             <button className="link-btn" onClick={() => props.onFormSwitch('Login')}>Already have an account? Login here.</button>
           </form>

@@ -152,7 +152,7 @@ textarea:-ms-input-placeholder {
 
 /*---------------------------------------------*/
 button {
-  outline: none !important;
+  outline: none;
   border: none;
   background: transparent;
 }
@@ -507,4 +507,11 @@ iframe {
 
 .m-l-5 {
   margin-left: 5px;
+}
+
+/* tự bổ sung*/
+.ForgetPass
+{
+  text-decoration: none;
+  color: black;
 }

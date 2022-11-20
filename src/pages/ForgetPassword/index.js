@@ -1,5 +1,7 @@
+import {Link} from 'react-router-dom';
 import "./style.css";
 import "./fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+
 import { useState } from "react";
 const ForgetPassword = ({ handleSubmitForgetPassword, messageForgetPassword,props }) => {
   const [phonenumber, setPhonenumber] = useState("");
@@ -52,7 +54,8 @@ const ForgetPassword = ({ handleSubmitForgetPassword, messageForgetPassword,prop
             <div className="container-ForgetPassword100-form-btn">
               <button className="ForgetPassword100-form-btn">Hoàn tất</button>
             </div>
-            <button className="link-btn" onClick={() => props.onFormSwitch('Login')}>Login here.</button>
+            <Link to='../Login' className="BackLogin" >Login here.</Link>
+            
           </form>
         </div>
       </div>

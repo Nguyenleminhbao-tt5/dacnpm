@@ -45,22 +45,22 @@ function Homepage ()
             </div>
             <div className={cx('content-product')}>
                 <div className={cx('grid')}>
-                    <a href="" className={cx('product__heading')}>SẢN PHẨM NỔI BẬT</a>
+                    <div className={cx('product__heading')}>SẢN PHẨM NỔI BẬT</div>
                     <div className={cx('grid__row')}>
                         <div className={cx('grid__column-25')}>
-                            {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg' 
+                            {<Product new sale='30' size={true} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg' 
                             name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ'/>}
                         </div>
                         <div className={cx('grid__column-25')}>
-                            {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg' 
+                            {<Product new sale='30' size={true} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg' 
                             name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ'/>}
                         </div>
                         <div className={cx('grid__column-25')}>
-                            {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg' 
+                            {<Product new sale='30' size={true} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg' 
                             name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ'/>}
                         </div>
                         <div className={cx('grid__column-25')}>
-                            {<Product new sale='30' size={false} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg' 
+                            {<Product new sale='30' size={true} URL_img='https://ordixi.com/wp-content/uploads/2020/10/0eb4c83d.jpg' 
                             name='Sneaker class 1 ' price_new='594,300đ' price_old='849,000đ'/>}
                         </div>
                     </div>
@@ -70,7 +70,7 @@ function Homepage ()
             </div>
             <div className={cx('content-accessory')}>
                 <div className={cx('grid')}>
-                    <a href="" className={cx('accessory__heading')}>PHỤ KIỆN KÈM THEO</a>
+                    <div className={cx('accessory__heading')}>PHỤ KIỆN KÈM THEO</div>
                     <div className={cx('grid__row')}>
                         <div className={cx('grid__column-25')}>
                             {<Product new={false} size={false} sale='30' URL_img='https://cf.shopee.vn/file/000519dcca77fb2c399bc1473b8ece60' 

@@ -18,6 +18,13 @@ function ProfileAIndividiual() {
                         <ProfileNav />
                     </div>
                 </div>
+                <div className={cx('avatar')}>
+                    <div className={cx('imgavatar')}>
+                        <img></img>
+                    </div>
+                        <input type="file"></input>
+                    
+                </div>
                 <div className={cx('content__2')}>
                     <div className={cx('content__2-header')}>
                         THÔNG TIN CÁ NHÂN

@@ -1,7 +1,10 @@
 .Trangchitiet{
+   
     display: flex;
     flex-direction: column;
     margin: 0 12%;
+    margin-top: 120px;
+    margin-bottom: 20px;
     background-color: #f8f8f0;
     padding: 0 20px 0 20px;
     border-radius: 10px;
@@ -86,7 +89,7 @@
 .sizegiay{
     display: inline-block;
     padding: 2%;
-    margin: 0px 10px 10px 0;
+    margin: 10px 10px 10px 0;
     background: #fff;
     position: relative;
     border: 3px solid #000000;
@@ -102,7 +105,7 @@
 
 .mausacgiay{
     display: inline-block;
-    margin: 0px 10px 10px 0;
+    margin: 10px 10px 10px 0;
     background: #fff;   
     padding: 10px 0;
     width: 20%;
@@ -115,6 +118,7 @@
 }
 .giatien{
     color: red;
+    padding: 10px 0;
 }
 .thongtin button{
     height: 60px;
@@ -125,7 +129,7 @@
     border-radius: 10px;
     border: 0px;
     cursor: pointer;
-    margin: 0 25%;
+    margin: 20px 25%;
 }
 .thongtin button:hover{
     background-color: #1d7920;
@@ -161,4 +165,11 @@
 }
 .loc button:hover{
     background-color: #1d7920;
+}
+
+/*bổ sung*/
+.cart1
+{
+    text-decoration: none;
+    color: #000;
 }

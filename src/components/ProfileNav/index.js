@@ -1,6 +1,7 @@
 import classNames from "classnames/bind";
 import styles from './ProfileNav.module.scss';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { countLogin } from "../../pages/Login";
 const cx = classNames.bind(styles);
 
 function ProductOrder() {
@@ -20,7 +21,7 @@ function ProductOrder() {
                     <Link to="/ProfileOrder" className={cx('link')}>Danh sách đơn hàng</Link>
                 </div>
                 <div className={cx('listaddress__exit')}>
-                    Đăng xuất
+                    <Link to="/" className={cx('link')} onClick={()=>countLogin--}>Đăng xuất</Link>
                 </div>
             </div>
         </div>
@@ -28,3 +29,4 @@ function ProductOrder() {
 }
 
 export default ProductOrder;
+export {countLogin};

@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import classNames from "classnames/bind";
 import styles from './Product.module.scss';
 import '../base.module.scss';
@@ -14,9 +15,9 @@ function Product(props)
     return (
         <div className={cx('wrapper')}>
             <div className={cx('product__top')} >
-                <a href="" className={cx('product__top-link')}>
+                <Link to='/ProfileProduct' className={cx('product__top-link')}>
                     <img className={cx('product__top-img')} src={props.URL_img} align='middle'/>
-                </a>
+                </Link>
                 
                 <div className={cx('product__top-sale')}>
                     {props.new && <span className={cx('new')}>NEW</span>}
@@ -31,7 +32,7 @@ function Product(props)
                     </div>
                 </div>
                 {props.size && <div className={cx('product__top-size')}>
-                    <a href="" className={cx('size-item','active')}>
+                    <a href="" className={cx('size-item')}>
                         <span style={{top: '10px', position: 'relative'}}>36</span>
                     </a>
                     <a href="" className={cx('size-item')}>
@@ -68,15 +69,15 @@ function Product(props)
                     <button className={cx('price-old')}>{props.price_old}</button>
                 </div>
                 <div className={cx('product__bot-detail')}>
-                    <a href="" className={cx('cart')}>
+                    <Link to='./Cart' className={cx('cart')}>
                         <i className={cx('cart-icon',"fa-solid fa-cart-shopping")}></i>
                         <span className={cx('cart-text')}>Thêm giỏ hàng</span>
-                    </a>
+                    </Link>
                     <span className={cx('arow')}></span>
-                    <a href="" className={cx('detail')}>
+                    <Link to='./Homepage/ProfileProduct' className={cx('detail')}>
                         <i className={cx('detail-icon',"fa-solid fa-eye")}></i>
                         <span className={cx('detail-text')}>Xem chi tiết</span>
-                    </a>
+                    </Link>
                 </div>
 
             </div>

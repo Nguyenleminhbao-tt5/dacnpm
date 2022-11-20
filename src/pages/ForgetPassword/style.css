@@ -152,7 +152,7 @@ textarea:-ms-input-placeholder {
 
 /*---------------------------------------------*/
 button {
-  outline: none !important;
+  outline: none;
   border: none;
   background: transparent;
 }
@@ -505,4 +505,11 @@ iframe {
 
 .m-l-5 {
   margin-left: 5px;
+}
+
+/* bổ sung*/
+.BackLogin
+{
+  text-decoration: none;
+  color: black;
 }

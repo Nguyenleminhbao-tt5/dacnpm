@@ -19,16 +19,38 @@
 }
 
 .content__1 {
-    width: 30%;
+    width: 18%;
+    margin-left: 20px;
 
     & .content__1-nav {
         height: 100%;
-        width: 29%;
+        width: 30%;
         position: absolute;
         left: 20px;
     }
 }
-
+.avatar{    
+    width: 15%;
+    background-color: #e4e4e4;
+    height: 200px;
+    margin-right:50px ;
+    padding: 0;
+    & .imgavatar{
+        width: 80%;
+        height: 80%;
+        background-color: #ffffff;
+        margin: auto;
+        margin: 10px auto;
+        border-radius: 80%;
+        &img{
+            width: 100%;
+        }
+    }
+    & input{
+        margin: auto;
+        
+    }
+}
 .content__2 {
     width: 70%;
     height: 500px;

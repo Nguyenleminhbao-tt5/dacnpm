@@ -6,7 +6,8 @@ import {AiFillTwitterSquare} from'react-icons/ai'
 import {AiFillInstagram} from 'react-icons/ai'
 import {FaRegHeart} from 'react-icons/fa'
 import {AiOutlineStar} from 'react-icons/ai'
-import { useState } from 'react';
+import {Link} from 'react-router-dom'
+
 
 
 function Sanphamtt(){
@@ -59,7 +60,9 @@ function Chitietsp(){
                     <span className='mausacgiay'>Xanh</span>
                     <h1 className='giatien'>150000000</h1>
                     <p>Ưu đãi khuyến mãi</p>
-                    <button> <b>Thêm vào giỏ hàng</b></button>
+                    <button>
+                        <Link to='../../Cart' className='cart1'> <b>Thêm vào giỏ hàng</b></Link>
+                    </button>
                 </div>
             </div>
             <div className="SPtuongtu">
@@ -75,18 +78,13 @@ function Chitietsp(){
             </div>
             <div className="Motasp">
                 <h1>Mô tả sản phẩm</h1>
-                <p>Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
-                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
-                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid 
+                <p>Thuộc dòng sản phẩm sneaker mới nhất 2022 của Shondo, Chunky S1 được thiết kế theo phong cách hầm hố, đường nét phá cách cùng logo SH nổi bật, dễ dàng phối đồ và thể hiện đa phong cách.
                 </p>
-                <p>Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
-                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
-                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid 
+                <p>- Dòng sản phẩm: Chunky S1
                 </p>
-                <p>Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
-                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid Giày rất là đẹp, đẹp vãi chưởng ádasdknwkfnaksdsdksdksd dsd sd sdskdj js  
-                    sdcsdk sdkfjsf o ijsdf ọ slk spodjf  poasjd apojsd apsoid 
+                <p>- Thương hiệu: SHONDO
                 </p>
+                <p>- Đế trên chất liệu Phylon cao cấp, kết hợp đế dưới cao su có rãnh, hạn chế trơn trượt, chống mài mòn </p>
             </div>
             <div className="Danhgia">
                 <div className='vote'>

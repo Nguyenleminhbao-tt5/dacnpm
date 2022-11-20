@@ -10,15 +10,30 @@ function App() {
         <Router>
             <div className="App">
                 <Routes>
-                    {publicRoutes.map((route, index) => {
+                    {
+                    publicRoutes.map((route, index) => {
                         const Content = route.component;
                         const Layout = DefaultLayout;
                         if (route.layout===1) Layout= DefaultLayout_AD;
-                        else if (route.layout===2) Layout= DefaultLayout_KH; 
+                        else if (route.layout===2) 
+                        {
+                            return (
+                            <Route
+                                key={index}
+                                path={route.path}
+                                
+                                element={
+                                    
+                                        <Content/>
+                                   
+                                }
+                            />);
+                        }; 
                         return (
                             <Route
                                 key={index}
                                 path={route.path}
+                                
                                 element={
                                     <Layout>
                                         <Content/>
@@ -26,7 +41,9 @@ function App() {
                                 }
                             />
                         );
-                    })}
+                    })
+
+                    }
                 </Routes>
             </div>
         </Router>

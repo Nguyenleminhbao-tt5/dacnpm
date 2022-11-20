@@ -1,0 +1,61 @@
+.ContentRevenue{
+    width: 80%;
+    height: fit-content;
+    background-color: #C7F8C6;
+    margin: auto;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.h1dsxacnhan{
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    background-color: #00B528;
+    padding: 1px 40px;
+    border-radius: 20px;
+}
+.headerconfirm{
+    width: 100%;
+    display: flex;
+}
+.headerconfirm > div{
+    width: 18%;
+    display: inline;
+    padding: 0;
+    text-align: center;
+    
+}
+.confirm{
+    margin: 0 0 20px 0;
+}
+.frameconfirm{
+    display: flex;
+    margin-left: 10px;
+}
+.namecus, .address, .codeorder, .priceorder{
+    width: 17%;
+    margin: 5px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+button{
+    width: 12%;
+    margin: 0 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.confirmbutton{
+    background-color: #0ACA34;
+}
+.cancelbutton{
+    background-color: red;
+}
+.cancelbutton:hover{
+    background-color: rgb(187, 8, 8);
+}
+.confirmbutton:hover{
+    background-color: #099a29;
+}

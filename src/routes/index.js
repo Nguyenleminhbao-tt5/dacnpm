@@ -1,5 +1,4 @@
 /* Lưu đường dẫn chuyển trang */
-import Cart from '../pages/Cart';
 import CategoryProduct from '../pages/CategoryProduct';
 import ForgetPassword from '../pages/ForgetPassword';
 import Homepage from '../pages/Homepage';
@@ -15,11 +14,13 @@ import PaymentAddress from '../pages/PaymentAddress';
 import ProfileIndividiual from '../pages/ProfileIndividiual';
 import ProfileOrder from '../pages/ProfileOrder';
 import Register from '../pages/Register';
-import PayATM from '../pages/PayATM';
+import Chitietsp from '../pages/ProfileProduct/chitietsp';
+import Giohang from '../pages/Cart/cart';
+
 const publicRoutes = [
     {
         path: '/Cart',
-        component: Cart,
+        component: Giohang,
         layout: 0
     },
     {
@@ -30,7 +31,7 @@ const publicRoutes = [
     {
         path: '/ForgetPassword',
         component: ForgetPassword,
-        layout: 0
+        layout: 2
     },
     {
         path: '/',
@@ -60,7 +61,7 @@ const publicRoutes = [
     {
         path: '/Login',
         component: Login,
-        layout: 0
+        layout: 2 // layout này kh có header và footer
     },
     {
         path: '/ModifiedProduct',
@@ -88,18 +89,18 @@ const publicRoutes = [
         layout: 0
     },
     {
-        path: '/Pay',
+        path: '/Cart/Pay',
         component: Pay,
         layout: 0
     },
     {
         path: '/Register',
         component: Register,
-        layout: 0
+        layout: 2 // layout này kh có header và footer
     },
     {
-        path: '/PayATM',
-        component: PayATM,
+        path: '/ProfileProduct',
+        component: Chitietsp,
         layout: 0
     }
 ];
