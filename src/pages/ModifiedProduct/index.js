@@ -127,7 +127,9 @@ class ModifiedProduct extends Component{
 		<div class="col-md-8 col-sm-12" style={{margin:'auto'}} >
 		<Form noValidate validated={this.state.validated} style={{marginTop:"120px"}}>
 		<div class ='row' style={{marginTop:'5px'}}>
-		<h4 class="text-center">Thông tin sản phẩm</h4>
+		<div class='titleModified'>
+		<h2 class="text-center"><b>Thông tin sản phẩm</b></h2>
+		</div>
 			<div class="col-md-7 col-sm-12">
 			<Form.Group  controlId="validationCustom03" style={{margin:'0 0 2px'}}>
 				<Form.Label><span>Tên sản phẩm</span></Form.Label>
@@ -228,11 +230,12 @@ class ModifiedProduct extends Component{
 			</div>
 		</div>
 		<div class="d-flex justify-content-end container mt-3">
+		<div class = 'bottomMODChange'>
 		<Button type="button" variant="success" onClick={this.handleSubmit}>Xóa sản phẩm</Button>
         <Button type="button" variant="success" onClick={this.handleSubmit}>Lưu thay đổi</Button>
 
 		<button type="button" class="btn btn-success" id="exit"  onClick={()=>{window.location.href = "/admin/product"}}>Hủy</button>
-
+		</div>
 		</div>
 		</Form>
 		{/* <!-- The Modal --> */}
