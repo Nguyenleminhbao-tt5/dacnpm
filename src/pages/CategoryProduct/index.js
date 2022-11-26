@@ -5,7 +5,7 @@ const cx = classNames.bind(styles);
 function CategoryProduct() {
   return (
     <div className={cx('wrapper')}>
-      <div class="grid">
+      <div className={cx("grid")}>
         <div className={cx('body')}>
           <div className={cx('col1', '.grid__column-25')}>
             <div className={cx('list-item')}>
